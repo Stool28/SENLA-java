@@ -16,11 +16,7 @@ public class Main3 {
 
         Scanner scanner = new Scanner(System.in);
         String[] offer = scanner.nextLine().split(" ");
-       // String[] offer = "Я не сошёл с ума".split(" ");
         System.out.println(Arrays.toString(offer));
-//        for (String s : offer) {
-//            System.out.print(s + " ");
-//        }
 
 
         for (String word : offer) {
